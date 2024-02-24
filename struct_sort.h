@@ -21,4 +21,5 @@ typedef struct {
     char phone_number[PHONE_SIZE];
 } person_t;
 
+void remove_space(char *person_field);
 #endif
